@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.12)
+project(cpp_eval)
+set(CMAKE_CXX_STANDARD 11)
+add_executable(cpp_eval main.cpp FaceDetector.cpp)
+target_link_libraries(cpp_eval dlib lapack blas opencv_core opencv_highgui)
