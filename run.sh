@@ -1,4 +1,4 @@
 cd build
-make
+cmake --build . --config Release
 cd ..
 ./build/cpp_eval
